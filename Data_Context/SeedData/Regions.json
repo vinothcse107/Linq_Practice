@@ -1,0 +1,18 @@
+[
+      {
+            "Region_Id": 1,
+            "Region_Name": "Europe"
+      },
+      {
+            "Region_Id": 2,
+            "Region_Name": "Americas"
+      },
+      {
+            "Region_Id": 3,
+            "Region_Name": "Asia"
+      },
+      {
+            "Region_Id": 4,
+            "Region_Name": "Middle East and Africa"
+      }
+]

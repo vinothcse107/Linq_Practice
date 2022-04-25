@@ -1,0 +1,72 @@
+[
+      {
+            "Employee_ID": 102,
+            "Start_Date": "1993-01-13",
+            "End_Date": "1998-07-24",
+            "Job_Id": "IT_PROG",
+            "Department_Id": 60
+      },
+      {
+            "Employee_ID": 101,
+            "Start_Date": "1989-09-21",
+            "End_Date": "1993-10-27",
+            "Job_Id": "AC_ACCOUNT",
+            "Department_Id": 110
+      },
+      {
+            "Employee_ID": 101,
+            "Start_Date": "1993-10-28",
+            "End_Date": "1997-03-15",
+            "Job_Id": "AC_MGR",
+            "Department_Id": 110
+      },
+      {
+            "Employee_ID": 201,
+            "Start_Date": "1996-02-17",
+            "End_Date": "1999-12-19",
+            "Job_Id": "MK_REP",
+            "Department_Id": 20
+      },
+      {
+            "Employee_ID": 114,
+            "Start_Date": "1998-03-24",
+            "End_Date": "1999-12-31",
+            "Job_Id": "ST_CLERK",
+            "Department_Id": 50
+      },
+      {
+            "Employee_ID": 122,
+            "Start_Date": "1999-01-01",
+            "End_Date": "1999-12-31",
+            "Job_Id": "ST_CLERK",
+            "Department_Id": 50
+      },
+      {
+            "Employee_ID": 200,
+            "Start_Date": "1987-09-17",
+            "End_Date": "1993-06-17",
+            "Job_Id": "AD_ASST",
+            "Department_Id": 90
+      },
+      {
+            "Employee_ID": 176,
+            "Start_Date": "1998-03-24",
+            "End_Date": "1998-12-31",
+            "Job_Id": "SA_REP",
+            "Department_Id": 80
+      },
+      {
+            "Employee_ID": 176,
+            "Start_Date": "1999-01-01",
+            "End_Date": "1999-12-31",
+            "Job_Id": "SA_MAN",
+            "Department_Id": 80
+      },
+      {
+            "Employee_ID": 200,
+            "Start_Date": "1994-07-01",
+            "End_Date": "1998-12-31",
+            "Job_Id": "AC_ACCOUNT",
+            "Department_Id": 90
+      }
+]

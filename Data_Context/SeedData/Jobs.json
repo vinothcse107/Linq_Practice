@@ -1,0 +1,116 @@
+[
+      {
+            "Job_ID": "AD_PRES",
+            "Job_Title": "President",
+            "Min_Salary": 20000,
+            "Max_Salary": 40000
+      },
+      {
+            "Job_ID": "AD_VP",
+            "Job_Title": "Administration Vice President",
+            "Min_Salary": 15000,
+            "Max_Salary": 30000
+      },
+      {
+            "Job_ID": "AD_ASST",
+            "Job_Title": "Administration Assistant",
+            "Min_Salary": 3000,
+            "Max_Salary": 6000
+      },
+      {
+            "Job_ID": "FI_MGR",
+            "Job_Title": "Finance Manager",
+            "Min_Salary": 8200,
+            "Max_Salary": 16000
+      },
+      {
+            "Job_ID": "FI_ACCOUNT",
+            "Job_Title": "Accountant",
+            "Min_Salary": 4200,
+            "Max_Salary": 9000
+      },
+      {
+            "Job_ID": "AC_MGR",
+            "Job_Title": "Accounting Manager",
+            "Min_Salary": 8200,
+            "Max_Salary": 16000
+      },
+      {
+            "Job_ID": "AC_ACCOUNT",
+            "Job_Title": "Public Accountant",
+            "Min_Salary": 4200,
+            "Max_Salary": 9000
+      },
+      {
+            "Job_ID": "SA_MAN",
+            "Job_Title": "Sales Manager",
+            "Min_Salary": 10000,
+            "Max_Salary": 20000
+      },
+      {
+            "Job_ID": "SA_REP",
+            "Job_Title": "Sales Representative",
+            "Min_Salary": 6000,
+            "Max_Salary": 12000
+      },
+      {
+            "Job_ID": "PU_MAN",
+            "Job_Title": "Purchasing Manager",
+            "Min_Salary": 8000,
+            "Max_Salary": 15000
+      },
+      {
+            "Job_ID": "PU_CLERK",
+            "Job_Title": "Purchasing Clerk",
+            "Min_Salary": 2500,
+            "Max_Salary": 5500
+      },
+      {
+            "Job_ID": "ST_MAN",
+            "Job_Title": "Stock Manager",
+            "Min_Salary": 5500,
+            "Max_Salary": 8500
+      },
+      {
+            "Job_ID": "ST_CLERK",
+            "Job_Title": "Stock Clerk",
+            "Min_Salary": 2000,
+            "Max_Salary": 5000
+      },
+      {
+            "Job_ID": "SH_CLERK",
+            "Job_Title": "Shipping Clerk",
+            "Min_Salary": 2500,
+            "Max_Salary": 5500
+      },
+      {
+            "Job_ID": "IT_PROG",
+            "Job_Title": "Programmer",
+            "Min_Salary": 4000,
+            "Max_Salary": 10000
+      },
+      {
+            "Job_ID": "MK_MAN",
+            "Job_Title": "Marketing Manager",
+            "Min_Salary": 9000,
+            "Max_Salary": 15000
+      },
+      {
+            "Job_ID": "MK_REP",
+            "Job_Title": "Marketing Representative",
+            "Min_Salary": 4000,
+            "Max_Salary": 9000
+      },
+      {
+            "Job_ID": "HR_REP",
+            "Job_Title": "Human Resources Representative",
+            "Min_Salary": 4000,
+            "Max_Salary": 9000
+      },
+      {
+            "Job_ID": "PR_REP",
+            "Job_Title": "Public Relations Representative",
+            "Min_Salary": 4500,
+            "Max_Salary": 10500
+      }
+]

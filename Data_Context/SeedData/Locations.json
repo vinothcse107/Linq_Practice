@@ -1,0 +1,185 @@
+[
+      {
+            "Location_Id": 1000,
+            "Street_Address": "1297 Via Cola di Rie",
+            "Postal_Code": "989",
+            "City": "Roma",
+            "State_Province": "Prefecture",
+            "Country_Id": "IT"
+      },
+      {
+            "Location_Id": 1100,
+            "Street_Address": "93091 Calle della Testa",
+            "Postal_Code": "10934",
+            "City": "Venice",
+            "State_Province": "Texas",
+            "Country_Id": "IT"
+      },
+      {
+            "Location_Id": 1200,
+            "Street_Address": "2017 Shinjuku-ku",
+            "Postal_Code": "1689",
+            "City": "Tokyo",
+            "State_Province": "Prefecture",
+            "Country_Id": "JP"
+      },
+      {
+            "Location_Id": 1300,
+            "Street_Address": "9450 Kamiya-cho",
+            "Postal_Code": "6823",
+            "City": "Hiroshima",
+            "State_Province": "Texas",
+            "Country_Id": "JP"
+      },
+      {
+            "Location_Id": 1400,
+            "Street_Address": "2014 Jabberwocky Rd",
+            "Postal_Code": "26192",
+            "City": "Southlake",
+            "State_Province": "Texas",
+            "Country_Id": "US"
+      },
+      {
+            "Location_Id": 1500,
+            "Street_Address": "2011 Interiors Blvd",
+            "Postal_Code": "99236",
+            "City": "South San Francisco",
+            "State_Province": "California",
+            "Country_Id": "US"
+      },
+      {
+            "Location_Id": 1600,
+            "Street_Address": "2007 Zagora St",
+            "Postal_Code": "50090",
+            "City": "South Brunswick",
+            "State_Province": "Jersey",
+            "Country_Id": "US"
+      },
+      {
+            "Location_Id": 1700,
+            "Street_Address": "2004 Charade Rd",
+            "Postal_Code": "98199",
+            "City": "Seattle",
+            "State_Province": "Washington",
+            "Country_Id": "US"
+      },
+      {
+            "Location_Id": 1800,
+            "Street_Address": "147 Spadina Ave",
+            "Postal_Code": "M5V 2L7",
+            "City": "Toronto",
+            "State_Province": "Ontario",
+            "Country_Id": "CA"
+      },
+      {
+            "Location_Id": 1900,
+            "Street_Address": "6092 Boxwood St",
+            "Postal_Code": "YSW 9T2",
+            "City": "Whitehorse",
+            "State_Province": "Yukon",
+            "Country_Id": "CA"
+      },
+      {
+            "Location_Id": 2000,
+            "Street_Address": "40-5-12 Laogianggen",
+            "Postal_Code": "190518",
+            "City": "Beijing",
+            "State_Province": "Oxford",
+            "Country_Id": "CN"
+      },
+      {
+            "Location_Id": 2100,
+            "Street_Address": "1298 Vileparle (E)",
+            "Postal_Code": "490231",
+            "City": "Bombay",
+            "State_Province": "Maharashtra",
+            "Country_Id": "IN"
+      },
+      {
+            "Location_Id": 2200,
+            "Street_Address": "12-98 Victoria Street",
+            "Postal_Code": "2901",
+            "City": "Sydney",
+            "State_Province": "New South Wales",
+            "Country_Id": "AU"
+      },
+      {
+            "Location_Id": 2300,
+            "Street_Address": "198 Clementi North",
+            "Postal_Code": "540198",
+            "City": "Singapore",
+            "State_Province": "Oxford",
+            "Country_Id": "SG"
+      },
+      {
+            "Location_Id": 2400,
+            "Street_Address": "8204 Arthur St",
+            "Postal_Code": "540198",
+            "City": "London",
+            "State_Province": "Oxford",
+            "Country_Id": "UK"
+      },
+      {
+            "Location_Id": 2500,
+            "Street_Address": "Magdalen Centre",
+            "Postal_Code": "OX9 9ZB",
+            "State_Province": "Oxford",
+            "Country_Id": "CN"
+      },
+      {
+            "Location_Id": 2600,
+            "Street_Address": "9702 Chester Road",
+            "Postal_Code": "9629850293",
+            "City": "Stretford",
+            "State_Province": "Manchester",
+            "Country_Id": "UK"
+      },
+      {
+            "Location_Id": 2700,
+            "Street_Address": "Schwanthalerstr. 7031",
+            "Postal_Code": "80925",
+            "City": "Munich",
+            "State_Province": "Bavaria",
+            "Country_Id": "DE"
+      },
+      {
+            "Location_Id": 2800,
+            "Street_Address": "Rua Frei Caneca 1360",
+            "Postal_Code": "01307-002",
+            "City": "Sao Paulo",
+            "State_Province": "Sao Paulo",
+            "Country_Id": "BR"
+      },
+      {
+            "Location_Id": 2900,
+            "Street_Address": "20 Rue des Corps-Saints",
+            "Postal_Code": "1730",
+            "City": "Geneva",
+            "State_Province": "Geneve",
+            "Country_Id": "CH"
+      },
+      {
+            "Location_Id": 3000,
+            "Street_Address": "Murtenstrasse 921",
+            "Postal_Code": "3095",
+            "City": "Bern",
+            "State_Province": "BE",
+            "Country_Id": "CH"
+      },
+      {
+            "Location_Id": 3100,
+            "Street_Address": "Pieter Breughelstraat 837",
+            "Postal_Code": "3029SK",
+            "City": "Utrecht",
+            "State_Province": "Utrecht",
+            "Country_Id": "NL"
+      },
+      {
+            "Location_Id": 3200,
+            "Street_Address": "Mariano Escobedo 9991",
+            "Postal_Code": "11932",
+            "City": "Mexico City",
+            "State_Province": "Distrito Federal",
+            "Country_Id": "NL"
+      }
+]

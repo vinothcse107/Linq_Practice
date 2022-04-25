@@ -1,0 +1,164 @@
+[
+      {
+            "Department_ID": 10,
+            "Department_Name": "Administration",
+            "Manager_ID": 200,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 20,
+            "Department_Name": "Marketing",
+            "Manager_ID": 201,
+            "Location_ID": 1800
+      },
+      {
+            "Department_ID": 30,
+            "Department_Name": "Purchasing",
+            "Manager_ID": 114,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 40,
+            "Department_Name": "Human Resources",
+            "Manager_ID": 203,
+            "Location_ID": 2400
+      },
+      {
+            "Department_ID": 50,
+            "Department_Name": "Shipping",
+            "Manager_ID": 121,
+            "Location_ID": 1500
+      },
+      {
+            "Department_ID": 60,
+            "Department_Name": "IT",
+            "Manager_ID": 103,
+            "Location_ID": 1400
+      },
+      {
+            "Department_ID": 70,
+            "Department_Name": "Public Relations",
+            "Manager_ID": 204,
+            "Location_ID": 2700
+      },
+      {
+            "Department_ID": 80,
+            "Department_Name": "Sales",
+            "Manager_ID": 145,
+            "Location_ID": 2500
+      },
+      {
+            "Department_ID": 90,
+            "Department_Name": "Executive",
+            "Manager_ID": 100,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 100,
+            "Department_Name": "Finance",
+            "Manager_ID": 108,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 110,
+            "Department_Name": "Accounting",
+            "Manager_ID": 205,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 120,
+            "Department_Name": "Treasury",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 130,
+            "Department_Name": "Corporate Tax",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 140,
+            "Department_Name": "Control And Credit",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 150,
+            "Department_Name": "Shareholder Services",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 160,
+            "Department_Name": "Benefits",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 170,
+            "Department_Name": "Manufacturing",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 180,
+            "Department_Name": "Construction",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 190,
+            "Department_Name": "Contracting",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 200,
+            "Department_Name": "Operations",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 210,
+            "Department_Name": "IT Support",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 220,
+            "Department_Name": "NOC",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 230,
+            "Department_Name": "IT Helpdesk",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 240,
+            "Department_Name": "Government Sales",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 250,
+            "Department_Name": "Retail Sales",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 260,
+            "Department_Name": "Recruiting",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      },
+      {
+            "Department_ID": 270,
+            "Department_Name": "Payroll",
+            "Manager_ID": 0,
+            "Location_ID": 1700
+      }
+]

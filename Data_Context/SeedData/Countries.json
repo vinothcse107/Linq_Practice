@@ -1,0 +1,31 @@
+[
+      { "Country_Id": "AR", "Country_Name": "Argentina", "Region_Id": 2 },
+      { "Country_Id": "AU", "Country_Name": "Australia", "Region_Id": 3 },
+      { "Country_Id": "BE", "Country_Name": "Belgium", "Region_Id": 1 },
+      { "Country_Id": "BR", "Country_Name": "Brazil", "Region_Id": 2 },
+      { "Country_Id": "CA", "Country_Name": "Canada", "Region_Id": 2 },
+      { "Country_Id": "CH", "Country_Name": "Switzerland", "Region_Id": 1 },
+      { "Country_Id": "CN", "Country_Name": "China", "Region_Id": 3 },
+      { "Country_Id": "DE", "Country_Name": "Germany", "Region_Id": 1 },
+      { "Country_Id": "DK", "Country_Name": "Denmark", "Region_Id": 1 },
+      { "Country_Id": "EG", "Country_Name": "Egypt", "Region_Id": 4 },
+      { "Country_Id": "FR", "Country_Name": "France", "Region_Id": 1 },
+      { "Country_Id": "HK", "Country_Name": "HongKong", "Region_Id": 3 },
+      { "Country_Id": "IL", "Country_Name": "Israel", "Region_Id": 4 },
+      { "Country_Id": "IN", "Country_Name": "India", "Region_Id": 3 },
+      { "Country_Id": "IT", "Country_Name": "Italy", "Region_Id": 1 },
+      { "Country_Id": "JP", "Country_Name": "Japan", "Region_Id": 3 },
+      { "Country_Id": "KW", "Country_Name": "Kuwait", "Region_Id": 4 },
+      { "Country_Id": "MX", "Country_Name": "Mexico", "Region_Id": 2 },
+      { "Country_Id": "NG", "Country_Name": "Nigeria", "Region_Id": 4 },
+      { "Country_Id": "NL", "Country_Name": "Netherlands", "Region_Id": 1 },
+      { "Country_Id": "SG", "Country_Name": "Singapore", "Region_Id": 3 },
+      { "Country_Id": "UK", "Country_Name": "United Kingdom", "Region_Id": 1 },
+      {
+            "Country_Id": "US",
+            "Country_Name": "United States of America",
+            "Region_Id": 2
+      },
+      { "Country_Id": "ZM", "Country_Name": "Zambia", "Region_Id": 4 },
+      { "Country_Id": "ZW", "Country_Name": "Zimbabwe", "Region_Id": 4 }
+]
