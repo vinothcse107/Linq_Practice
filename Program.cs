@@ -36,13 +36,15 @@ try
 {
       var con = services.GetRequiredService<DbxContext>();
       con.Database.Migrate();
-      await Seed.SeedRegions(con);
-      await Seed.SeedCountryAsync(con);
-      await Seed.SeedLocationAsync(con);
-      await Seed.SeedDepartment(con);
-      await Seed.SeedJobs(con);
-      await Seed.SeedEmployees(con);
-      await Seed.SeedJobHistory(con);
+      // Run Once Only On Start
+
+      // await Seed.SeedRegions(con);
+      // await Seed.SeedCountryAsync(con);
+      // await Seed.SeedLocationAsync(con);
+      // await Seed.SeedDepartment(con);
+      // await Seed.SeedJobs(con);
+      // await Seed.SeedEmployees(con);
+      // await Seed.SeedJobHistory(con);
 }
 catch (Exception ex)
 {
