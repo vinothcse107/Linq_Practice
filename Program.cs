@@ -45,6 +45,7 @@ try
       // await Seed.SeedJobs(con);
       // await Seed.SeedEmployees(con);
       // await Seed.SeedJobHistory(con);
+      // await Seed.SeedJobGrades(con);
 }
 catch (Exception ex)
 {

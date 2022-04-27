@@ -251,7 +251,7 @@ namespace Apitest.Controllers
                               .Select(s => new
                               {
                                     Job_Id = s.Key,
-                                    Cities = s.Select(g => g.EmployeeID).Count()
+                                    Cities = s.Select(g => g.First_Name)
                               });
                   return Ok(x);
             }

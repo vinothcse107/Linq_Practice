@@ -1,0 +1,38 @@
+[
+      {
+            "Job_Grades_Id": 1,
+            "Grade_Level": "A",
+            "Lowest_Salary": 1000,
+            "Highest_Salary": 2999
+      },
+      {
+            "Job_Grades_Id": 2,
+            "Grade_Level": "B",
+            "Lowest_Salary": 3000,
+            "Highest_Salary": 5999
+      },
+      {
+            "Job_Grades_Id": 3,
+            "Grade_Level": "C",
+            "Lowest_Salary": 6000,
+            "Highest_Salary": 9999
+      },
+      {
+            "Job_Grades_Id": 4,
+            "Grade_Level": "D",
+            "Lowest_Salary": 10000,
+            "Highest_Salary": 14999
+      },
+      {
+            "Job_Grades_Id": 5,
+            "Grade_Level": "E",
+            "Lowest_Salary": 15000,
+            "Highest_Salary": 24999
+      },
+      {
+            "Job_Grades_Id": 6,
+            "Grade_Level": "F",
+            "Lowest_Salary": 25000,
+            "Highest_Salary": 40000
+      }
+]

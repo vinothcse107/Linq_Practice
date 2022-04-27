@@ -102,4 +102,18 @@ public static class Seed
             await context.SaveChangesAsync();
             Console.WriteLine("Job_History Seeding Done");
       }
+
+      public static async Task SeedJobGrades(DbxContext context)
+      {
+            // if (context.job_history.Any()) return;
+            var Data = System.IO.File.ReadAllText("Data_Context/SeedData/Job_Grades.json");
+            var JsonData = JsonSerializer.Deserialize<List<Job_Grades>>(Data);
+
+            foreach (var x in JsonData)
+            {
+                  await context.job_grades.AddAsync(x);
+            }
+            await context.SaveChangesAsync();
+            Console.WriteLine("Job_Grades Seeding Done");
+      }
 }
