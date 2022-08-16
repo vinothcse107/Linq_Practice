@@ -304,6 +304,7 @@ public class LinqJoin : Controller
       // From the following tables, write a SQL query to find those departments where at least 2 employees work.
       // Group the result set on country name and city. Return country name, city, and number of departments.
 
+      // Redo it !!!
       [HttpGet("Get_Department_GT2_Employees")]
       public async Task<IActionResult> GetData29()
       {
@@ -327,25 +328,50 @@ public class LinqJoin : Controller
                         // Cant Find Count ..
                   })
             .ToListAsync();
+            return Ok(x);
+      }
 
+      // From the following tables, write a SQL query to find the department name,
+      //  full name(first and last name) of the manager and their city.
 
+      [HttpGet("Get_Department_Manager_City")]
+      public async Task<IActionResult> GetData30()
+      {
+            var x = await (
+                  from e in _context.employees
+                  join d in _context.departments on e.EmployeeID equals d.Manager_ID
+                  join l in _context.locations on d.Location_ID equals l.Location_Id
+                  select new
+                  {
+                        DepartmentName = d.Department_Name,
+                        ManagerName = $"{e.First_Name} {e.Last_Name}",
+                        City = l.City
+                  }
+            ).ToListAsync();
+            return Ok(x);
+      }
+      // From the following tables, write a SQL query to compute the number of days
+      // worked by employees in a department of ID 80. Return employee ID, job title,
+      //  number of days worked.
+
+      // employee ID, job title, number of days worked
+      // jobs / job_history
+      [HttpGet("Get_Department80_Employees_Days_Worked")]
+      public async Task<IActionResult> GetData31()
+      {
+            var x = await (
+                  from h in _context.job_history
+                  join j in _context.jobs on h.Job_Id equals j.Job_ID
+                  where h.Department_Id == 80
+                  select new
+                  {
+                        EmployeeID = h.Employee_ID,
+                        JobTitle = j.Job_Title,
+                        DaysWorked = (h.End_Date - h.Start_Date).TotalDays
+                  }
+            ).ToListAsync();
             return Ok(x);
       }
 
 
-      // [HttpGet("Get_Department_>=2Employees")]
-      // public async Task<IActionResult> GetData29()
-      // {
-      //       var x = await (
-      //       ).ToListAsync();
-      //       return Ok(x);
-      // }
-
-      // [HttpGet("Get_Department_>=2Employees")]
-      // public async Task<IActionResult> GetData29()
-      // {
-      //       var x = await (
-      //       ).ToListAsync();
-      //       return Ok(x);
-      // }
 }

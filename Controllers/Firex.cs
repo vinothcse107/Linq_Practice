@@ -251,9 +251,17 @@ namespace Apitest.Controllers
                               .Select(s => new
                               {
                                     Job_Id = s.Key,
-                                    Cities = s.Select(g => g.First_Name)
+                                    Employees = s.Select(g => g.First_Name)
+
                               });
                   return Ok(x);
+            }
+
+            [HttpGet("Get_Employees_Test_Gruop")]
+            public IActionResult GetData15()
+            {
+                  var x = context.Database.ExecuteSqlRaw("select * from employees e");
+                  return Ok(x.ToString());
             }
       }
 }

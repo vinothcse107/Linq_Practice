@@ -1,5 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace Apitest.Controllers;
-public class employeeController
+public class employeeController : ControllerBase
 {
       private DbxContext _context { get; set; }
       public employeeController(DbxContext context)
@@ -14,9 +16,28 @@ public class employeeController
             return new OkObjectResult(x);
       }
 
-      [HttpPost("PutEmployees")]
-      public IActionResult PostEmployees([FromBody] employee e)
+      [HttpGet("RawSQL")]
+      public IActionResult RawEmployees()
       {
-            return new OkObjectResult(' ');
+            var x = _context.employees.FromSqlRaw("SELECT * FROM dbo.employees ;").ToList();
+            return Ok(x);
       }
+
+      [HttpGet("ProcedureSQL")]
+      public IActionResult ExecProcedure()
+      {
+            // var x = _context.employees.FromSqlRaw("EXEC EmpJoinDept;").ToList();
+            var x = (from e in _context.employees
+                     join d in _context.departments
+                     on e.Department_ID equals d.Department_ID
+                     select new { e, d }).GroupBy(g => g.d.Department_ID)
+                        .Select(s => new
+                        {
+                              Dept = s.Key,
+                              Emp = s.Select(o =>
+                                    o.e)
+                        }).ToList();
+            return Ok(x);
+      }
+
 }
