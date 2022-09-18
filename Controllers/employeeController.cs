@@ -13,7 +13,15 @@ public class employeeController : ControllerBase
       public IActionResult GetEmployees()
       {
             var x = _context.employees?.ToList();
+            int xe = 5;
+            var xr = xe switch
+            {
+                  _ when xe > 5 => "Greater",
+                  _ when xe < 5 => "Lesser",
+                  _ => "Equal"
+            };
             return new OkObjectResult(x);
+
       }
 
       [HttpGet("RawSQL")]

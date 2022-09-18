@@ -264,20 +264,6 @@ public class LinqJoin : Controller
       // From the following tables, write a SQL query to find the department
       // name and the full name(first and last name) of the manager.
 
-      [HttpGet("Get_Department_Managers")]
-      public async Task<IActionResult> GetData27()
-      {
-            var x = await (
-                  from d in _context.departments
-                  join e in _context.employees on d.Manager_ID equals e.EmployeeID
-                  select new
-                  {
-                        Department = d.Department_Name,
-                        Manager = e.First_Name
-                  }
-            ).ToListAsync();
-            return Ok(x);
-      }
 
       // From the following table, write a SQL query to compute the
       //  average salary of employees for each job title
@@ -373,5 +359,18 @@ public class LinqJoin : Controller
             return Ok(x);
       }
 
-
+      [HttpGet("Get_Department_Managers")]
+      public async Task<IActionResult> GetData27()
+      {
+            var x = await (
+                  from d in _context.departments
+                  join e in _context.employees on d.Manager_ID equals e.EmployeeID
+                  select new
+                  {
+                        Department = d.Department_Name,
+                        Manager = e.First_Name
+                  }
+            ).ToListAsync();
+            return Ok(x);
+      }
 }
